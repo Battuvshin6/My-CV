@@ -39,14 +39,11 @@ function App() {
       </div>
       <div className="description">
         <p>
-          Сайн байна уу? <br /> Намайг Баттүвшин гэдэг. Ерөнхий боловсролын
-          сургуулиа төгсөөд <br /> нэг жил болж байгаа ба одоогоор MStars
-          Academy-д сураад 5 сарыг үзэж <br /> байгаа билээ. Би чөлөөт цагаараа
-          мэдлэгээ өргөжүүлж өөрийгөө хөгжүүлэхэд <br /> зориулдаг ба олон талын
-          мэдлэгийн хуримтлуулах хоббитой. Миний давуу <br /> тал гэвэл би
-          тууштай байдал, шинийг санаачлах, боломжит байдлыг чадах <br />{" "}
-          хүрээндээ тооцоолж олон талыг баримтлах тал дээр бусдаас илүү <br />{" "}
-          байх гэж өөрийгөө дүгнэдэг.{" "}
+          {" "}
+          Hi! My name is Battuvshin. Im 19 years old. Just graduated <br /> high
+          school last year and currently studying development at <br /> MStars
+          Academy right now. I don't have job at the moment and looking <br />{" "}
+          for one.
         </p>
       </div>
     </div>
