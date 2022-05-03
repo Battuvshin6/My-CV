@@ -14,10 +14,8 @@
 .name-h1,
 .name-h2 {
   font-size: 5rem;
-  display: none;
 }
 .name-h1 {
-  display: none;
   justify-content: center;
   align-items: center;
 }

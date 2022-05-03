@@ -26,7 +26,7 @@ function App() {
           </a>
         </div>
         <div className="facebook">
-          <a href="">
+          <a href="https://www.facebook.com/profile.php?id=100023976380395">
             <p> Баттүвшин.Т</p>
             <img src="/images/fb.png" alt="" />
           </a>
