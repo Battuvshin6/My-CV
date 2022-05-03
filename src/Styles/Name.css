@@ -1,0 +1,23 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rem 30rem 40rem 30rem;
+}
+.list {
+  list-style: none;
+  color: rgb(22.4%, 100%, 7.8%);
+}
+.list li {
+  padding-bottom: 50px;
+}
+.name-h1,
+.name-h2 {
+  font-size: 5rem;
+  display: none;
+}
+.name-h1 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
