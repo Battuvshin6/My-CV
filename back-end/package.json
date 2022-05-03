@@ -15,6 +15,7 @@
     "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
     "https": "^1.0.0",
+    "nodemon": "^2.0.16",
     "path": "^0.12.7",
     "request": "^2.88.2",
     "url": "^0.11.0"
