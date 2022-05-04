@@ -5,47 +5,70 @@ import "../Styles/Main.css";
 function App() {
   return (
     <div className="main">
-      <div className="title">
-        <ol className="ordering-list">
-          <li className="img-list">
-            <img src="/images/me.jpeg" alt="" />
-          </li>
-          <li>
-            <h1>Баттүвшин</h1>
-          </li>
-          <li>
-            <h2>Student of MStars Academy</h2>
-          </li>
-        </ol>
-      </div>
-      <div className="contract">
-        <div className="email">
-          <a href="">
-            <p>mglbaagii03@gmail.com</p>
-            <img src="/images/google.png" alt="" />
-          </a>
+      <div className="margin-div">
+        <div className="container">
+          <div className="first-col col-5">
+            <div className="img-div">
+              <img src="/images/me.jpeg" alt="me" />
+            </div>
+            <div className="name-div">
+              <h1>
+                Battuvshin <br /> Tuvshinjargal
+              </h1>
+              <h2>
+                <b>Student of MStars</b>
+              </h2>
+            </div>
+            <div className="contract-div">
+              <h1>
+                <b>Contracts : </b>
+              </h1>
+              <ul className="contract-ul">
+                <a href="">
+                  <img src="/images/fb.png" alt="fb" className="fb-png" />
+                  <b>Баттүвшин.Т</b>
+                </a>
+                <br />
+                <a href="">
+                  <img src="/images/ig.jpeg" alt="ig" className="ig-png" />
+                  <b> Kaze_des</b>
+                </a>
+
+                <p>
+                  <b>+976 95645347</b>
+                </p>
+                <p>
+                  <b>mglbaagii03@gmail.com</b>
+                </p>
+              </ul>
+            </div>
+          </div>
+          <div className="second-col col-7">
+            <div className="profile">
+              <h1>
+                <b>Profile</b>
+              </h1>
+              <p>
+                Hi! My name is Battuvshin. Im 19 years old. Just graduated{" "}
+                <br /> high school last year and currently studying development
+                at <br /> MStars Academy right now. I don't have job at the
+                moment and looking <br /> for one.
+              </p>
+            </div>
+            <div className="skill-div">
+              <h1>
+                <b>Skills</b>
+              </h1>
+              <ul>
+                <li>Quick Learner</li>
+                <li>Creative Thinker</li>
+                <li>Good Listener</li>
+                <li>Vision</li>
+                <li>Sportsman</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div className="facebook">
-          <a href="https://www.facebook.com/profile.php?id=100023976380395">
-            <p> Баттүвшин.Т</p>
-            <img src="/images/fb.png" alt="" />
-          </a>
-        </div>
-        <div className="number">
-          <a href="">
-            <p>+976 95645347</p>
-            <img src="/images/phone.png" alt="" />
-          </a>
-        </div>
-      </div>
-      <div className="description">
-        <p>
-          {" "}
-          Hi! My name is Battuvshin. Im 19 years old. Just graduated <br /> high
-          school last year and currently studying development at <br /> MStars
-          Academy right now. I don't have job at the moment and looking <br />{" "}
-          for one.
-        </p>
       </div>
     </div>
   );

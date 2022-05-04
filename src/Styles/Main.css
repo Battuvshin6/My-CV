@@ -1,78 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
 #root {
   background-image: url(../../public/images/space.jpeg);
 }
-.main {
-  margin: 0 5rem;
+.main{
+  font-family: 'Lobster', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-.main div {
-  margin-bottom: 3rem;
+.margin-div{
+  margin: 0rem 3rem;
+  padding: 5rem 0;
+ 
 }
-.title {
+.container{
+  padding: 3rem;
+  background-color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  color: white;
 }
-.title img {
-  width: 10rem;
-  justify-content: center;
-  border: 3px solid black;
-  border-radius: 50px;
+.img-div img{
+  height: 20rem;
+  width: 15rem;
 }
-.ordering-list {
-  list-style: none;
-  color: rgb(22.4%, 100%, 7.8%);
+.fb-png ,.ig-png {
+  width: 50px;
+  padding-right: 10px;
 }
-.img-list {
-  justify-content: center;
-  padding: 5rem 0 1rem 6rem;
+.fb-png{
+  padding-bottom: 10px;
 }
-.title h1 {
-  padding-left: 5rem;
-}
-.contract {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.contract a {
-  text-align: center;
+.contract-ul a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
-.contract a:hover {
-  color: cyan;
+.contract-ul a:hover{
+  color: aqua;
 }
-.description {
-  color: white;
-  padding: 4.5rem 0;
+.name-div h1{
+  font-size: 60px;
+  color: orange;
 }
-.description p {
-  padding-top: 20px;
-  font-size: 20px;
-  font-family: "Manrope", sans-serif;
-  color: rgb(22.4%, 100%, 7.8%);
+.name-div h2{
+  font-size: 40px;
 }
-.facebook img,
-.number img {
-  width: 4rem;
+.contract-div p{
+font-size: 20px;
 }
-.email img {
-  width: 6rem;
+.contract-div ul{
+  padding-left: 0;
 }
-.email,
-.facebook,
-.number {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.profile p{
+  font-size: 30px;
 }
-.email p,
-.facebook p,
-.number p {
-  color: cyan;
+.skill-div li{
   font-size: 25px;
+}
+.profile h1,.education-div h1,.skill-div h1{
+font-size: 40px;
 }
