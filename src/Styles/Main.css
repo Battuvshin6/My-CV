@@ -58,3 +58,6 @@ font-size: 20px;
 .profile h1,.education-div h1,.skill-div h1{
 font-size: 40px;
 }
+.profile{
+ padding-bottom: 50px;
+}
