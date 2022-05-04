@@ -1,6 +1,14 @@
 const express = require("express");
 const app = express();
 const fs = require("fs");
+app.get("/", (req, res) => {
+  fs.readFile("profile.json", "utf-8", (error, data) => {
+    let allData = JSON.parse(data);
+    console.log(typeof allData);
+    let stringedData = JSON.stringify(allData);
+    console.log();
+  });
+});
 app.get("/name", (req, res) => {
   fs.readFile("profile.json", "utf-8", (error, data) => {
     let myData = JSON.parse(data);
@@ -8,7 +16,6 @@ app.get("/name", (req, res) => {
       return e.name;
     });
     let str = JSON.stringify(myName);
-    console.log(typeof str);
     if (error) {
       throw error;
     } else {
@@ -24,7 +31,6 @@ app.get("/age", (req, res) => {
     });
     let number = JSON.stringify(myAge);
 
-    console.log(typeof number);
     if (error) {
       throw error;
     } else {
