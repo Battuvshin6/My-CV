@@ -1,29 +1,65 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 
 #root {
   background-image: url(../../public/images/space.jpeg);
 }
 .main {
-  margin: 0 25rem;
-  background-color: rgb(233, 227, 227);
-  background-repeat: no-repeat;
-  font-family: "Libre Bodoni", serif, "Manrope", sans-serif;
+  font-family: "Lobster", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 .margin-div {
-  margin: 5rem 3rem;
+  margin: 0rem 3rem;
+  padding: 5rem 0;
+}
+.container {
+  padding: 3rem;
+  background-color: white;
   display: flex;
 }
 .img-div img {
-  height: 30rem;
-  width: 20rem;
-  margin-bottom: 50px;
+  height: 20rem;
+  width: 15rem;
 }
-.profile-div {
-  margin-bottom: 80px;
+.fb-png,
+.ig-png {
+  width: 50px;
+  padding-right: 10px;
 }
-.profile-div h1 {
-  font-size: 50px;
+.fb-png {
+  padding-bottom: 10px;
 }
-.profile-div p {
+.contract-ul a {
+  text-decoration: none;
+  color: black;
+}
+.contract-ul a:hover {
+  color: aqua;
+}
+.name-div h1 {
+  font-size: 60px;
+  color: orange;
+}
+.name-div h2 {
+  font-size: 40px;
+}
+.contract-div p {
   font-size: 20px;
+}
+.contract-div ul {
+  padding-left: 0;
+}
+.profile p {
+  font-size: 30px;
+}
+.skill-div li {
+  font-size: 25px;
+}
+.profile h1,
+.education-div h1,
+.skill-div h1 {
+  font-size: 40px;
+}
+.profile {
+  padding-bottom: 50px;
 }
